@@ -1,0 +1,14 @@
+[project]
+name = "bayesbench-notebook"
+version = "0.1.0"
+description = "A self-contained Jupyter notebook demo of Bayesian early stopping for online A/B tests"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=2.19",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "jupyter",
+    "gymnasium>=0.29",
+]
