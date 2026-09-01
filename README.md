@@ -41,11 +41,9 @@ Everything runs on CPU in under a minute — no GPU, no API keys.
 
 ## Run locally
 
-This project uses [uv](https://docs.astral.sh/uv/) to manage dependencies.
-
 ```bash
-uv sync
-uv run jupyter notebook bayesbench_demo.ipynb
+pip install -r requirements.txt
+jupyter notebook bayesbench_demo.ipynb
 ```
 
 ## Related
